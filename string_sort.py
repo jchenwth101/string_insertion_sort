@@ -9,8 +9,8 @@ def string_sort(a_list):
       #  a_list.append(a_list[index].lower())
         value = a_list[index]
         pos = index - 1
-        while pos >= 0 and a_list[pos].lower() > value.lower():
-            a_list[pos + 1] = a_list[pos].lower()
+        while pos >= 0 and a_list[pos].casefold() > value.casefold():
+            a_list[pos + 1] = a_list[pos].casefold()
             pos -= 1
         a_list[pos + 1] = value
 

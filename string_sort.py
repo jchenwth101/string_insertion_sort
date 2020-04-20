@@ -6,7 +6,7 @@ def string_sort(a_list):
     """Sorts a string sort alphabetically using insertion sort
     without considering capital case parameter"""
     for index in range(1, len(a_list)):
-        a_list.append(a_list[index].lower())
+      #  a_list.append(a_list[index].lower())
         value = a_list[index]
         pos = index - 1
         while pos >= 0 and a_list[pos].lower() > value.lower():

@@ -14,9 +14,9 @@ def string_sort(a_list):
             pos -= 1
         a_list[pos + 1] = value
 
-a_list = ["Zebra", "apple", "marKer", "marble"]
-string_sort(a_list)
-print(a_list)
+#a_list = ["Zebra", "apple", "marKer", "marble"]
+#string_sort(a_list)
+#print(a_list)
 
 
 
